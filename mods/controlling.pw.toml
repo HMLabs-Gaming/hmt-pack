@@ -11,3 +11,6 @@ hash = "705a98e5d05c15854c5a711fb6f1a9fbe5eaae354bdaf8b5c1641b09f89457c98ed41b81
 [update.modrinth]
 mod-id = "xv94TkTM"
 version = "rAp2jljs"
+[update.curseforge]
+file-id = 8268835
+project-id = 250398

@@ -11,3 +11,6 @@ hash = "10c4b8451b7ddddb96b9d248e7816cfbea227e965ac510f8a9fac3bb0e62d1da310bae81
 [update.modrinth]
 mod-id = "CdTnUpve"
 version = "2lTSQwas"
+[update.curseforge]
+file-id = 8283538
+project-id = 1293136

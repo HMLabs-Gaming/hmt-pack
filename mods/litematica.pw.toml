@@ -11,3 +11,6 @@ hash = "d866e0263d97e16a6bbc96c9ab61f1781e490aaad01b4d76cc3f1de8ec82cef04ca5d84f
 [update.modrinth]
 mod-id = "bEpr0Arc"
 version = "awNX9q5c"
+[update.curseforge]
+file-id = 8382374
+project-id = 308892

@@ -11,3 +11,6 @@ hash = "489f7d3b0a3d7f5aa49a21ce61f1cdcc9c25e684984c989670737080e5cd6e81130870e7
 [update.modrinth]
 mod-id = "UMxybHE8"
 version = "VWS4CVWi"
+[update.curseforge]
+file-id = 8334216
+project-id = 244260
