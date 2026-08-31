@@ -1,3 +1,5 @@
+![HMT Clan wordmark](https://cdn.modrinth.com/data/cached_images/72c4791f6ac95e09ed862e3a20c937793c9f7486.png)
+
 # HMT Pack
 
 A client-side Fabric modpack for Minecraft 26.2 focused on performance optimization, quality-of-life improvements, and visual enhancements. Managed with [packwiz](https://packwiz.tools/) and published to [Modrinth](https://modrinth.com/).
