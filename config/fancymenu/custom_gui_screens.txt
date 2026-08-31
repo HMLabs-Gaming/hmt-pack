@@ -1,0 +1,38 @@
+type = custom_gui_screens
+
+overridden_screens {
+}
+
+custom_gui {
+  identifier = calendar
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = hmtoptions
+  title = HMT Options
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+
+custom_gui {
+  identifier = map
+  title = 
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+  popup_mode = false
+  popup_mode_background_overlay = true
+}
+

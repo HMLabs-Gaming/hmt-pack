@@ -1,0 +1,13 @@
+name = "Rinku"
+filename = "rinku_fabric_3.0.4_MC_26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bQhBuv7x/versions/LtluKaTp/rinku_fabric_3.0.4_MC_26.2.jar"
+hash-format = "sha512"
+hash = "909ee38b454fdfc80d57a78321fa962544796aa6b2112ba75bd641ca73294c488754094197f1abf2ae4134842fb630279e6e71138b9824d78e5ab12c00a2743d"
+
+[update]
+[update.modrinth]
+mod-id = "bQhBuv7x"
+version = "LtluKaTp"
