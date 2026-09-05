@@ -2,20 +2,19 @@
 
 # HMT Pack
 
-A client-side Fabric modpack for Minecraft 26.2 focused on performance optimization, quality-of-life improvements, and visual enhancements. Managed with [packwiz](https://packwiz.tools/) and published to [Modrinth](https://modrinth.com/).
+This modpack aims to make Community CraftAttack Servers more enjoyable. It offers significantly more improvements and features than Vanilla Minecraft or the [HM Basic Play](https://modrinth.com/modpack/hm-basic-play) modpack. In comparison with [HM Life+](https://modrinth.com/modpack/hm-lifep) this Modpack adds more mods that are very useful on those Community CraftAttack servers, but banned from most normal SMPs. But the biggest difference is the GUI. The HMT Pack adds a custom UI with custom buttons in containers like the survival inventory. These buttons trigger several commands on Servers like `/craft` or `/ec`.
+
+While pre-configured for the **TheScape.de** server and the **HMT Clan**, this modpack can easily be used on other servers as well. In future updates, you will also be able to fully customize all UI buttons and feature shortcuts to fit your own preferences!
+
+This modpack will be restricted on some public servers due to mods like MouseTweaks or ClientSort. Use it at your own risk and stay informed about server rules.
 
 ## Features
 
-- **Performance** — Sodium, Sodium Extra, Reese's Sodium Options, Lithium, Iris, FerriteCore, Better Block Entities, C2ME, VMP, ImmediatelyFast, ModernFix, BadOptimizations, Entity Culling, More Culling, and Bobby
-- **Visuals** — Complementary Reimagined, Complementary Unbound, and MakeUp Ultra Fast shaders, Euphoria Patches, 3D Skin Layers, Wavey Capes, Capes, Continuity, FancyMenu, OptiGUI, Rinku, Skin Shuffle, Here 'n' There, Cubes Without Borders, and Greenscreen ore resource packs
-- **Quality of Life** — Zoomify, Dynamic Crosshair, Dynamic FPS, Simple Voice Chat, Xaero's Minimap, Xaero's World Map, AppleSkin, Jade, Better Advancements, Better Statistics Screen, Mouse Tweaks, Shulker Box Tooltip, Crafting Tweaks, Chat Heads, Controlling, Searchables, Do a Barrel Roll, Extreme Sound Muffler, Gamma Utils, Locator Heads, More Chat History, Show Me Your Skin!, Toggle Sprint Display, ukus Armor HUD, CalcMod, and Mod Menu
-- **Utilities** — Litematica, MiniHUD, Freecam, Freelook, Client Sort, Command Keys, Accurate Block Placement Reborn, and Scribble
-- **Privacy** — No Chat Reports and Auth Me
-- **Cross-version support** — ViaFabricPlus
-
-## Installation
-
-Download the latest `.mrpack` from [Modrinth](https://modrinth.com/modpack/kUYTdD3h), then open it with the Modrinth App or any launcher that supports `.mrpack` files.
+* **Small Performance Optimizations:** Built on the latest Fabric loader with essential performance mods like Sodium, Lithium, and FerriteCore for a fast, smooth, and stutter-free experience.
+* **Custom Server GUI & Quick Commands:** Features a heavily customized user interface with dedicated on-screen buttons in inventories to trigger common SMP server commands like `/craft` or `/ec` instantly-tailored for TheScape.de and HMT Clan workflows.
+* **Advanced Quality of Life (QoL):** Packed with powerful utilities including Freecam, MouseTweaks, ClientSort, and dynamic crosshairs to streamline inventory management and navigation.
+* **Visual Improvements & Aesthetics:** Upgrades your game's graphics with Iris Shaders, EuphoriaPatches, and 3D Skin Layers without sacrificing performance.
+* **Vanilla-Friendly & Customizable Core:** Keeps the fundamental Minecraft gameplay intact while providing high-utility tools tailored for feature-rich SMP environments, with upcoming options to fully customize all functions.
 
 ## Development
 
@@ -51,10 +50,4 @@ pack.toml        — Modpack metadata (name, version, loaders)
 
 ## Release
 
-Export the pack for distribution:
-
-```sh
-packwiz modrinth export -o release.mrpack
-```
-
-Upload the resulting `.mrpack` to [Modrinth](https://modrinth.com/) and attach it to the GitHub Release.
+Create a release with proper Tags and Name. Everything should be published automatically.
