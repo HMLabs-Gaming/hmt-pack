@@ -17,9 +17,9 @@ jobs:
       use-go: true
       build-command: |
         # Keep Packwiz export versions aligned with the published GitHub Release tag.
-        sed -i "s/^version = .*/version = \"${GITHUB_REF_NAME}\"/" platforms/modrinth/pack.toml platforms/curseforge/pack.toml
+        sed -i "s/^version = .*/version = \"${GITHUB_REF_NAME}\"/" pack.toml
         go install github.com/packwiz/packwiz@latest
         (packwiz modrinth export)
         (packwiz curseforge export)
-      artifacts-json: '[{"path":"platforms/modrinth/HMT Pack-{version}.mrpack"},{"path":"platforms/curseforge/HMT Pack-{version}.zip"}]'
+      artifacts-json: '[{"path":"HMT Pack-{version}.mrpack"},{"path":"HMT Pack-{version}.zip"}]'
     secrets: inherit
